@@ -18,9 +18,13 @@ export default function addRuleNodeCoreLocaleEnglish($translateProvider) {
     var en_US = {
         "tb": {
             "rulenode": {
-                "msg-key": "Message key",
-                "input-key": "Input key",
-                "output-key": "Output key",
+                "client-attributes": "Client attributes",
+                "shared-attributes": "Shared attributes",
+                "server-attributes": "Server attributes",
+                "latest-timeseries": "Latest timeseries",
+                "device-name-pattern": "Name pattern",
+                "device-name-pattern-required": "Name pattern is required",
+                "device-name-pattern-hint": "Name pattern, use <code>${metaKeyName}</code> to substitute variables from metadata",
             }
         }
     };

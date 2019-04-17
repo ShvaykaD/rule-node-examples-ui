@@ -16,15 +16,15 @@
 
 /* eslint-disable import/no-unresolved, import/default */
 
-import getSumConfigTemplate from './get-sum-config.tpl.html';
+import getAnchorAttributesConfigTemplate from './get-anchor-attributes-config.tpl.html';
 
 /* eslint-enable import/no-unresolved, import/default */
 
 /*@ngInject*/
-export default function GetSumConfigDirective($compile) {
+export default function GetAnchorAttributesConfigDirective($compile) {
 
     var linker = function (scope, element, attrs, ngModelCtrl) {
-        var template = getSumConfigTemplate;
+        var template = getAnchorAttributesConfigTemplate;
         element.html(template);
 
 
