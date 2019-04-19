@@ -16,9 +16,10 @@
 
 
 import enrichmentComponents from './components/enrichment';
+import actionComponents from './components/action';
 import CustomRuleNodeCoreConfig from './custom-nodes-config';
 
 export default angular.module('thingsboard.ruleChain.config',
-    [enrichmentComponents])
+    [enrichmentComponents, actionComponents])
     .config(CustomRuleNodeCoreConfig)
     .name;

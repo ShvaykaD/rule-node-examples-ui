@@ -15,8 +15,8 @@
  */
 
 
-import GetAnchorAttributesConfigDirective from './get-anchor-attributes-config.directive';
+import DuplicateMsgToAnchorConfigDirective from './duplicate-msg-to-anchor-config.directive';
 
 export default angular.module('thingsboard.ruleChain.config.enrichment', [])
-    .directive('tbActionGetAnchorAttributesConfigDirective', GetAnchorAttributesConfigDirective)
+    .directive('tbActionNodeDuplicateMsgToAnchorConfigDirective', DuplicateMsgToAnchorConfigDirective)
     .name;
